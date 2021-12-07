@@ -1,0 +1,170 @@
+/* header{
+    display: flex;
+    align-items: center;
+} */
+html{
+    display: flex;
+}
+.menu{
+    margin-left: 15%;
+    margin-top: -83px;
+}
+
+.menu a:hover {
+    background-color: gold;
+  }
+
+  .menu2 a:hover{
+      
+      text-decoration: underline;
+  }
+
+h1{
+    background-color:black;
+    color:azure;
+    width: 15%; 
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+}
+ul li{
+    display: inline-block;
+    padding: 0 15px; 
+}
+
+
+li a{
+    text-decoration: none;
+    font-style: oblique 50deg;
+}
+
+.menu2{
+    width :80%; 
+    margin-left: 3%;
+    margin-top: 8% ;
+}
+.menu2 li a{
+
+    text-align: right;
+    width: 20%; 
+    text-decoration: none;
+
+}
+
+.section {
+    margin-top: 4% ;
+    margin-left: 2% ;
+}
+
+.section h2{
+
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.section p{
+    text-align: left;
+    font-style: normal;
+    width: 52%;
+}
+.product {
+    width: 100%;
+    margin: 1%;
+    margin-top: 3%;
+    align-items: center;
+    
+    
+}
+
+
+.product .prdtzone {
+    
+    /*padding-bottom:2%;
+    padding-right: 2%;*/
+    margin : 1%;
+    border-style: groove;
+    border-color:black ;
+    border-width: initial;
+    width: 20%;
+    float: left;
+    align-items: center;
+}
+
+
+h3{
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+
+.product .prdtzone img{
+    padding-left :8% ;
+    padding-top : 8% ;
+    padding-right :8%; 
+    padding-bottom :5%;
+    width: 85% ;  
+}
+
+.product p{
+    padding-left: 3%;
+}
+
+.green{
+    padding-left: 3%;
+    color: chartreuse;
+}
+
+span {
+    text-decoration:underline;
+}
+
+@media screen and (max-width:600px){
+
+    h1{
+        background-color: rgb(0,0,0) ;
+        color:azure;
+        width: 15%; 
+        height: 70px;
+        padding-top: 20px;
+        margin-left: 40%;
+    }
+    .menu{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto ;
+        margin-top: 8%;
+    }
+
+    .menu li{
+        border-style: groove;
+        border-color: black;
+    }
+
+    .menu2{
+        width :90%; 
+        margin-left: 1%;
+        margin-top: 8% ;
+    }
+
+    .section p{
+        text-align: left;
+        font-style: normal;
+        width: 85%;
+    }
+
+    .product .prdtzone {
+    
+        margin : 1%;
+        border-style: groove;
+        border-color:black ;
+        border-width: initial;
+        width: 90%;
+        
+    }
+
+
+
+
+
+}
